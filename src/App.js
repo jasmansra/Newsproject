@@ -1,18 +1,18 @@
 
 import "./App.css";
 
-import React, { Component } from "react";
+import React from "react";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import LoadingBar from 'react-top-loading-bar'
 
-export default class App extends Component {
 
-
-
-  render() {
-    return (
-      <div>
+ 
+ 
+ export default function App() {
+   return (
+     
+         <div>
           <LoadingBar
         color='blue'
         progress='100'
@@ -25,6 +25,7 @@ export default class App extends Component {
         <Navbar/>
         <Home/>
       </div>
-    );
-  }
-}
+    
+   )
+ }
+ 
